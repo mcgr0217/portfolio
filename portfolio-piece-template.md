@@ -1,5 +1,7 @@
 Title: Samantha McGregor
+
 Bilboard: bilboardimage.jpg
+
 About: Info about my website
 ---
 UI/UX:
@@ -13,7 +15,6 @@ UI/UX:
 Image
 Name:
 description:
-
 
 Web Design:
 Image
