@@ -10,13 +10,15 @@ Photography:
     icon:
 ---
 UI/UX:
-sample
-sample
+Image
+Name:
+description:
+
 
 Web Design:
-PortfolioPiece
-PortfolioPiece
+Image
+Name:
+description:
 
 Photography:
-Image
-Image
+Image:
