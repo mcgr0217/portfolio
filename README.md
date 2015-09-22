@@ -5,7 +5,7 @@
 [Email](hello@samanthamcgregor.ca)
 [Website](samanthamcgregor.ca)
 
-WHY
+My biggest passion is design, I specialize in UI/UX, Web Design and photography.
 
 - Grapher Designer located in Ottawa, ON
 
