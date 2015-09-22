@@ -2,9 +2,12 @@
 
 **Version 1.0.0**
 
-Markdown code for portfolio website
+[Email](hello@samanthamcgregor.ca)
+[Website](samanthamcgregor.ca)
 
 WHY
+
+- Grapher Designer located in Ottawa, ON
 
 ---
 
