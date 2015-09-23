@@ -2,14 +2,15 @@
 
 **Version 1.0.0**
 
-[Email](hello@samanthamcgregor.ca)
-[Website](samanthamcgregor.ca)
+## Story
 
-My biggest passion is design, I specialize in UI/UX, Web Design and photography.
+Im a graphic designer adventuring in ottawa, ON. I specialize in UI/UX, Web Design and Photography
 
-- Grapher Designer located in Ottawa, ON
+- Located in Ottawa, ON
 
----
+[Feel free to email me!](hello@samanthamcgregor.ca)
+
+[Check out my Website](samanthamcgregor.ca) and [Linked In!](https://ca.linkedin.com/in/mcgregorsamantha)
 
 ## License & Copyright
 
