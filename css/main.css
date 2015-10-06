@@ -123,4 +123,12 @@ p {
     font-family: sans-serif;
     color: #000;
 }
+
+.image {
+    margin-top: 5rem;
+}
+
+.center {
+    text-align: center;
+}
      
