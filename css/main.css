@@ -57,6 +57,7 @@ body {
 .box2 {
     margin: 0;
     padding: 3rem;
+    background-color: #D9DADE;
 }
 
 .nav-bar {
@@ -104,8 +105,4 @@ video {
 
 p {
     font-family: sans-serif;
-}
-
-.flyer {
-    width: 40rem;
 }
