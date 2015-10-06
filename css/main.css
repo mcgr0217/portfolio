@@ -44,7 +44,7 @@ body {
 }
 
 .box {
-    background-color: #87CAD6;
+    background-color: #D9DADE;
     margin: 0;
     padding: 3rem;
 }
@@ -79,4 +79,33 @@ nav a {
 video {
     object-fit: contain;
     width: 100%;
+}
+
+.services {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon {
+    width: 10rem;
+    text-align: center;
+    padding: 1rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.icon:hover {
+    opacity: 0.3;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.flyer {
+    width: 40rem;
 }
