@@ -33,6 +33,7 @@ body {
 .about {
     padding: 7rem 3rem;
     text-align: center;
+    background-color: #D9DADE;
 }
 
 .text-align {
@@ -60,6 +61,13 @@ body {
     background-color: #D9DADE;
 }
 
+.box3 {
+    margin: 0;
+    padding: 3rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
 .nav-bar {
     height: 50px;
     width: 100%;
@@ -75,11 +83,6 @@ nav a {
     text-decoration: none;
     color: #000;
     font-family: sans-serif;
-}
-
-video {
-    object-fit: contain;
-    width: 100%;
 }
 
 .services {
@@ -106,3 +109,11 @@ video {
 p {
     font-family: sans-serif;
 }
+
+.link {
+    text-decoration: none;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: #000;
+}
+     
