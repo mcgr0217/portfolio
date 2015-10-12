@@ -30,6 +30,10 @@ body {
 	display: none;
 }
 
+h2 {
+    font-family: Marck+Script, cursives;
+}
+
 .about {
     padding: 7rem 3rem;
     text-align: center;
@@ -131,4 +135,4 @@ p {
 .center {
     text-align: center;
 }
-     
+  
