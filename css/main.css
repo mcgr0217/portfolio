@@ -196,6 +196,19 @@ video {
     width: 100%;
 }
 
+.social-icon {
+    width: 70%;
+}
+
+.contact-icon {
+    max-width: 30%;
+    position: relative;
+    transform: translateX(120%);
+    margin: 0;
+    padding: 0;
+    
+}
+
 @media only screen and (min-width: 5em) {
     .about {
         padding: 1rem;
@@ -238,6 +251,9 @@ video {
     }
     .services {
         padding-bottom: 2rem;
+    }
+    .social-icon {
+        width: 50%;
     }
 }
 
