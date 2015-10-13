@@ -58,6 +58,25 @@ img {
     margin: 0 auto;
 }
 
+.overlay {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+.overlay1 {
+    position: absolute;
+    font-family: 'raleway', sans-serif;
+    top: 230px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
 .about {
     text-align: center;
     background-color: #D9DADE;
@@ -92,6 +111,10 @@ img {
 .nav-bar {
     width: 100%;
     padding: 1rem;
+}
+
+nav {
+    padding: .5rem;
 }
 
 nav a {
@@ -205,7 +228,9 @@ video {
     .nav-bar {
         width: 100%;
         background-color: transparent;
-        padding: .5rem;
+    }
+    .nav {
+        display: none;
     }
 }
 
@@ -216,6 +241,10 @@ video {
     .nav-bar {
         width: 100%;
         background-color: transparent;
+    }
+    .nav {
+        background-color: transparent;
+        display: none;
     }
 }
      
