@@ -136,6 +136,7 @@ p {
 
 .image {
     padding-top: 3rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
 }
