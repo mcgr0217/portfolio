@@ -26,6 +26,10 @@ body {
 	display: none;
 }
 
+.logo {
+    padding: 2rem;
+}
+
 .about {
     text-align: center;
     background-color: #D9DADE;
@@ -54,10 +58,10 @@ body {
 }
 
 .nav-bar {
-    height: 50px;
     width: 100%;
     position: fixed;
     background-color: #fff;
+    padding: 2rem;
 }
 
 .nav {
@@ -112,22 +116,17 @@ p {
     text-align: center;
 }
 
-nav a {
-    text-decoration: none;
-    color: #000;
-    font-family: sans-serif;
-}
-
 @media only screen and (min-width: 20em) {
     .about {
         padding: 1.5rem;
-        padding-top: 3rem;
+        padding-top: 8rem;
     }
 }
  
 @media only screen and (min-width: 40em) {
     .about {
         padding: 2.5rem;
+        padding-top: 6rem;
     }
 }
 
