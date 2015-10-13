@@ -38,6 +38,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 [hidden] {
@@ -45,7 +46,11 @@ body {
 }
 
 .logo {
-    padding: 2rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: 'raleway', sans-serif;
 }
 
 img {
@@ -86,12 +91,6 @@ img {
 
 .nav-bar {
     width: 100%;
-    position: fixed;
-    background-color: #fff;
-    padding: 1rem;
-}
-
-.nav {
     padding: 1rem;
 }
 
@@ -153,8 +152,19 @@ video {
 .widthx {
     margin: 0;
     padding: 0;
-    background: #fff;
-    opacity: 0.5;
+}
+
+.btt {
+    text-decoration: none;
+    color: #000;
+    background-color: #D9DADE;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.contacti {
+    list-style-type: none;
+    text-align: center;
 }
 
 @media only screen and (min-width: 5em) {
@@ -169,11 +179,22 @@ video {
     .box1 {
         padding: 1rem;
     }
+    .nav-bar {
+        width: 100%;
+        background-color: #fff;
+    }
 }
 
 @media only screen and (min-width: 20em) {
     .about {
         padding: 1.5rem;
+    }
+    .nav-bar {
+        width: 100%;
+        background-color: #fff;
+    }
+    .widthx {
+        margin: 0;
     }
 }
  
@@ -181,11 +202,20 @@ video {
     .about {
         padding: 2.5rem;
     }
+    .nav-bar {
+        width: 100%;
+        background-color: transparent;
+        padding: .5rem;
+    }
 }
 
-@media only screen and (min-width: 60em) { 
+@media only screen and (min-width: 55em) { 
     .about{
         padding: 3rem 5rem 3rem;
+    }
+    .nav-bar {
+        width: 100%;
+        background-color: transparent;
     }
 }
      
