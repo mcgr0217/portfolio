@@ -31,7 +31,6 @@ body {
 }
 
 .about {
-    padding: 7rem 3rem;
     text-align: center;
     background-color: #D9DADE;
 }
@@ -48,23 +47,13 @@ body {
     background-color: #D9DADE;
     margin: 0;
     padding: 3rem;
+    text-align: center;
 }
 
 .box1 {
     margin: 0;
     padding: 3rem;
-}
-
-.box2 {
-    margin: 0;
-    padding: 3rem;
-    background-color: #D9DADE;
-}
-
-.box3 {
-    margin: 0;
-    padding: 3rem;
-    margin-top: 10rem;
+    width: 100%;
     text-align: center;
 }
 
@@ -126,12 +115,37 @@ p {
 }
 
 .image {
-    padding: 0;
+    padding-top: 3rem;
     margin: 0 auto;
     text-align: center;
 }
 
 .center {
     text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 20em) {
+    .about {
+        padding: 1.5rem;
+        padding-top: 3rem;
+    }
+}
+ 
+@media only screen and (min-width: 40em) {
+    .about {
+        padding: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 60em) { 
+    .about{
+        padding: 3rem 4rem 2rem;
+    }
 }
      
