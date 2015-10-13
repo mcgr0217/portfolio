@@ -7,10 +7,6 @@
 html {
 	overflow-x: hidden;
 	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
@@ -30,9 +26,18 @@ body {
     padding: 2rem;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 .about {
     text-align: center;
     background-color: #D9DADE;
+}
+
+.width {
+   margin: 2rem; 
 }
 
 .text-align {
@@ -110,6 +115,7 @@ p {
 .image {
     padding-top: 3rem;
     text-align: center;
+    width: 100%;
 }
 
 .center {
