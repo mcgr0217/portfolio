@@ -75,13 +75,6 @@ img {
     height: 100%;
 }
 
-.box {
-    background-color: #D9DADE;
-    padding: 3rem;
-    text-align: center;
-    width: 100%;
-}
-
 .box1 {
     margin-top: 1rem;
     padding: 3rem;
@@ -190,6 +183,14 @@ video {
     margin: 0;
     padding: 0;
 }
+
+.select-box {
+    background-color: #D9DADE;
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+}
+    
 
 @media only screen and (min-width: 5em) {
     .about {

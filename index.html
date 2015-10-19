@@ -1,185 +1,60 @@
 ---
 layout: default
 ---
-        <section id="motion">
-            <div class="grid widthx">
-                <div class="unit unit-xs-1 unit-1 unit-m-1 unit-l-1">
-                <video loop autoplay id="motionv" height="330">
-                    <source src="video/timelapse.mp4" type="video/mp4"/>
-                    <source src="video//timelapse.webm" type="video/webm"/>
-                </video>
-                </div>
-            </div>
-        </section>
-        <div id="about">
-        <section class="about"> 
-            <div class="about">
-                <h2>Hey i'm Samantha!</h2>
-                <p>I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and love creating beautiful, simple and effective designs. UX/UI, branding, photography, designing, and anything artsy are my passions. I love creating a geat combo of design and usuability to create a long lasting impression.</p>
-            </div>
-        </section>
+<section id="motion">
+    <div class="grid widthx">
+        <div class="unit unit-xs-1 unit-1 unit-m-1 unit-l-1">
+        <video loop autoplay id="motionv" height="330">
+            <source src="video/timelapse.mp4" type="video/mp4"/>
+            <source src="video//timelapse.webm" type="video/webm"/>
+        </video>
         </div>
-        <section class="services">
-            <div class="services">
-                <h2>What I love to do!</h2>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
-                    <a href="https://www.behance.net/McgregorS">
-                    <img src="images/design.svg" class="icon" alt="Design Icon"></a>
-                    <p class="caption">Graphic Design & Web Design</p>
-                </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
-                    <a href="#photo">
-                    <img src="images/photography.svg" class="icon" alt="Photography Icon"></a>
-                    <p class="caption">Photography</p>
-                </div>
-            </div>
-            </section>
-            {% for portfolio in site.data.portfolio-pieces %}
+    </div>
+</section>
 
-            <div class="box" id="portfolio">
-                <h2 class="text-align">{{portfolio.title}}</h2>
-                <div class="text-hover">
-                    <p class="text-align">{{portfolio.classification}}</p>
-                </div>	
-                <div class="width">	
-                    <p class="text-align">{{portfolio.definition}}</p> 
-                </div>
-                <div class="grid">
-                    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </div>
-                    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </div>
-                </div>
-            </div>
+<div id="about">
+<section class="about"> 
+    <div class="about">
+        <h2>Hey i'm Samantha!</h2>
+        <p>I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and love creating beautiful, simple and effective designs. UX/UI, branding, photography, designing, and anything artsy are my passions. I love creating a geat combo of design and usuability to create a long lasting impression.</p>
+    </div>
+</section>
+</div>
 
-            <div class="box1">
-                <h2 class="text-align">TV Broadcasting</h2>
-                <div class="text-hover">
-                    <p class="text-align">Motion Design</p>
-                </div>	
-                <div class="width">	
-                    <p class="text-align">GP Trails</p>
-                    <p class="text-align">Creating a concept for a television network, Including a broadcast package with title reveal, lower thirds, sidebar animation and transitions.</p> 
-                </div>
-                <ul class="grid grid-middle center pad-t-1-2 pad-b-1-2">
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                </ul>
-            </div>
-        <section class="Graphic Design">
-            <div class="box">
-                <h2 class="text-align">Graphic Design & Web Design</h2>
-                <div class="text-hover">
-                    <p class="text-align">Pamphlets</p>
-                </div>
-                <div class="width">	
-                    <p class="text-align">ProCare Physiotherapy</p>
-                    <p class="text-align">While working at a Design Studio I was tasked with creating a promotional pamphlet for ProCare Physiotherapy and they wanted to promote their services.</p> 
-                    <p class="text-align">I designed the pamphlet around their logo branding color theme and I used iconography to display their services.</p>					
-                </div>
-                <ul class="grid grid-middle center pad-t-1-2 pad-b-1-2">
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                </ul>
-                    <p class="text-align">Branding Book</p>
-                <div class="width">	
-                    <p class="text-align">Serenade Kennels</p>
-                    <p class="text-align">Rebranding Serenade Kennels and creating a branding book to ensure that the future designs will remain consistent with the branding guidelines.</p> 
-                    <p class="text-align">For the branding book i kept it clean and simple, easy to navigate and I stayed within the color theme of the brand.</p>					
-                </div>
-                <ul class="grid grid-middle center pad-t-1-2 pad-b-1-2">
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="Photography">	
-            <div class="box1" id="photo">
-                <h2 class="text-align">Capturing moments</h2>
-                <div class="text-hover">
-                    <p class="text-align">Photography</p>
-                </div>
-                <div class="width">	
-                    <p class="text-align">moments</p>
-                    <p class="text-align">While growing up in Cyprus I fell in love with the surroundings and all the history that I naturally fell in love with photography while capturing its beauty and its motivated me to adventure as much as I can and to just capture beautiful moments in life.</p> 
-                    <p class="text-align">From adventuring on a beautiful mediterranean Island to adventuring in the wilderness of Canada, I thrive to explore and to enjoy what life has to offer.</p>					
-                </div>
-                <ul class="grid grid-middle center pad-t-1-2 pad-b-1-2">
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-         <section class="Illustration">	
-            <div class="box">
-                <h2 class="text-align">Isometric Illustration</h2>
-                <div class="text-hover">
-                    <p class="text-align">Movie Theatre</p>
-                </div>
-                <div class="width">	
-                    <p class="text-align">Concept &amp; Sketches</p>
-                    <p class="text-align">An isometric illustration explaining a process. Creating simple flat &amp; isometric sketches as if it were in 3D.</p> 
-                    <p class="text-align">Creating the movie theatre experience but for viewers at home. The illustration protrays the real life cinema experience but the setting is in a laptop to show that these days most people watch their movies at home on their laptops. The proportion is out of perspective to illustrate what the real life objects at home would be.</p>					
-                </div>
-                <ul class="grid grid-middle center pad-t-1-2 pad-b-1-2">
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                    <li class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <img class="image" src="images/image.svg" alt="Image">
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        {% endfor %}
-
-
-        <section class="foooter">	
-        <div class="box1" id="contact">
-            <h2>Thanks for stopping by!</h2>
-            <p>Feel free to contact me, I'd love to get in touch even if it's for a quick chat!</p>
-            <ul class="grid contact-icon">
-            <li class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-                <a href="https://www.behance.net/McgregorS" target="_blank">
-                    <img class="fade social-icon" src="images/be.png" alt="Behance Link">
-                </a>
-            </li>
-            <li class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-                <a href="https://www.linkedin.com/in/mcgregorsamantha" target="_blank">
-                    <img class="fade social-icon" src="images/in.png" alt="Behance Link">
-                </a>
-            </li>
-          </ul>
-            <div class="contact1">
-                <a href="mailto:hello@samanthamcgregor.com" class="link island">hello@samanthamcgregor.com</a>
-            </div>
-            <div class="contact pad-b">
-                <a href="tel:+5146616594" class="link">514-661-6594</a>
-            </div>
-                <a class="btt" href="#top">Back to the Top</a>
-                <p class="copyright micro pad-top">© 2015 Samantha McGregor</p>
+<section class="services">
+    <div class="services">
+        <h2>What I love to do!</h2>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+            <a href="https://www.behance.net/McgregorS">
+            <img src="images/design.svg" class="icon" alt="Design Icon"></a>
+            <p class="caption">Graphic Design & Web Design</p>
         </div>
-    </section>
-    
-</body>    
-</html>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+            <a href="#photo">
+            <img src="images/photography.svg" class="icon" alt="Photography Icon"></a>
+            <p class="caption">Photography</p>
+        </div>
+    </div>
+</section>
+
+{% for portfolio in site.data.portfolio-pieces %}
+<div id="portfolio">
+    <div class="select-box">
+        <h2 class="text-align">{{portfolio.title}}</h2>
+        <div class="text-hover">
+            <p class="text-align">{{portfolio.classification}}</p>
+        </div>
+    </div>
+    <div class="width box">	
+        <p class="text-align">{{portfolio.definition}}</p> 
+    </div>
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+            <img class="image" src="images/image.svg" alt="Image">
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+            <img class="image" src="images/image.svg" alt="Image">
+        </div>
+    </div>
+</div>
+{% endfor %}
