@@ -1,5 +1,8 @@
 ---
 layout: default
+meta: Samantha McGregor • Graphic Design • UI/UX
+priority: 1.0
+Changefreq: weekly
 ---
 <section id="motion">
     <div class="grid widthx">
@@ -37,24 +40,33 @@ layout: default
     </div>
 </section>
 
-{% for portfolio in site.data.portfolio-pieces %}
-<div id="portfolio">
-    <div class="hover select-box">
-        <h2 class="text-align">{{portfolio.title}}</h2>
-        <div class="text-hover">
-            <p class="text-align">{{portfolio.classification}}</p>
-        </div>
-    </div>
-    <div class="width box">	
-        <p class="text-align">{{portfolio.definition}}</p> 
-    </div>
-    <div class="grid pad-b">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-            <img class="image" src="images/image.svg" alt="Image">
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter pad-b">
-            <img class="image" src="images/image.svg" alt="Image">
-        </div>
-    </div>
+<div id="contentbox">
+    <div class="imagediv"></div>
+    <div class="hidediv"></div>
 </div>
+
+{% for portfolio in site.data.portfolio-pieces %}
+
+    <div id="portfolio">
+        <div class="hover select-box view_element">
+            <h2 class="text-align">{{portfolio.title}}</h2>
+            <div class="text-hover">
+                <p class="text-align">{{portfolio.classification}}</p>
+            </div>
+        </div>
+        <div class="hide_element">
+            <div class="width box">	
+                <p class="text-align">{{portfolio.definition}}</p> 
+            </div>
+            <div class="grid pad-b">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+                    <img class="image" src="images/image.svg" alt="Image">
+                </div>
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter pad-b">
+                    <img class="image" src="images/image.svg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
 {% endfor %}
