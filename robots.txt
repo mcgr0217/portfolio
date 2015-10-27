@@ -1,0 +1,2 @@
+Sitemap: http://mcgr0217.github.io/portfolio/sitemap.xml
+User-agent: *
