@@ -1,2 +1,4 @@
 permalink: pretty
 baseurl: /jekyll-intro
+exclude: ["README.md"]
+permalink: pretty
