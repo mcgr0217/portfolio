@@ -1,0 +1,26 @@
+/* Team*/
+
+Designer: Samantha McGregor
+
+Email: hello@samanthamcgregor.ca
+
+Behance: https://www.behance.net/McgregorS
+
+LinkedIn: https://www.linkedin.com/in/mcgregorsamantha
+
+Location: Ottawa, Ontario
+
+/* Thanks */
+
+Name: www.samanthamcgregor.ca
+
+/* Site */
+
+Updated: October, 26, 2015
+
+Standards: HTML5, CSS3, Jekyll
+
+/* Technology */
+
+- github
+- brackets
