@@ -5,6 +5,8 @@ priority: 1.0
 Changefreq: weekly
 ---
 
+<main id="main" itemscope itemtype="https://schema.org/CreativeWork" itemtype="https://schema.org/Thing" role="main"> 
+
 <section id="video">
     <div class="grid widthx">
         <div class="unit unit-xs-1 unit-1 unit-m-1 unit-l-1">
@@ -21,15 +23,15 @@ Changefreq: weekly
 <div id="about">
     <section class="about"> 
         <div class="about">
-            <h2>Hey i'm Samantha!</h2>
-            <p>I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and love creating beautiful, simple and effective designs. UX/UI, branding, photography, designing, and anything artsy are my passions. I love to create a mixture of design and usuability to create a long lasting impression.</p>
+            <h2 itemprop="author">Hey i'm Samantha!</h2>
+            <p itemprop="about">I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and love creating beautiful, simple and effective designs. UX/UI, branding, photography, designing, and anything artsy are my passions. I love to create a mixture of design and usuability to create a long lasting impression.</p>
         </div>
     </section>
 </div>
 
 <section class="services">
     <div class="services">
-        <h2>What I love to do!</h2>
+        <h2 itemprop="What I love to do">What I love to do!</h2>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
             <a href="https://www.behance.net/McgregorS">
             <img src="images/design.svg" aria-label="Graphic Design and Web Design Icon" class="icon" alt="Design Icon"></a>
@@ -52,21 +54,21 @@ Changefreq: weekly
 
     <div id="portfolio">
         <div class="hover select-box view_element">
-            <h2 class="text-align">{{portfolio.title}}</h2>
+            <h2 class="text-align" itemprop="Headline">{{portfolio.title}}</h2>
             <div class="text-hover">
-                <p class="text-align">{{portfolio.classification}}</p>
+                <p class="text-align" itemprop="Genre">{{portfolio.classification}}</p>
             </div>
         </div>
         <div class="hide_element">
             <div class="width box">	
-                <p class="text-align">{{portfolio.definition}}</p> 
+                <p class="text-align" itemprop="Definition">{{portfolio.definition}}</p> 
             </div>
             <div class="grid pad-b">
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-                    <img class="image" src="images/image.svg" alt="Image">
+                    <img class="image" src="images/image.svg" alt="{{portfolio.images-process-alt}}">
                 </div>
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter pad-b">
-                    <img class="image" src="images/image.svg" alt="Image">
+                    <img class="image" src="images/image.svg" alt="{{portfolio.images-process-alt}} ">
                 </div>
             </div>
         </div>
