@@ -7,6 +7,7 @@
    images-application-alt: Screen displaying the prototypes
    images-layout: images/image.svg
    images-layout-alt: Screen displaying the Gatineau Park App 
+   id: close
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
@@ -17,6 +18,7 @@
    images-application-alt: Screen Caps of motion
    images-layout: images/image.svg
    images-layout-alt: screen cap of motion
+   id: close
    
 -  title: Graphic Design
    classification: Branding
@@ -27,6 +29,7 @@
    images-application-alt: Serenade kennels prototyping
    images-layout: images/image.svg
    images-layout-alt: Displaying the branding book
+   id: close
    
 -  title: Capturing Moments
    classification: Photography
@@ -37,6 +40,7 @@
    images-application-alt: Images of photography
    images-layout: images/image.svg
    images-layout-alt: Images of photography
+   id: close
 
 -  title: Isometric Illustration
    classification: Illustration
@@ -47,3 +51,4 @@
    images-application-alt: Illustration process
    images-layout: images/image.svg
    images-layout-alt: Complete Isometric Illustration 
+   id: close
