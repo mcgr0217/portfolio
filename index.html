@@ -54,12 +54,15 @@ Changefreq: weekly
 
     <div id="portfolio">
         <div class="hover select-box view_element">
-            <h2 class="text-align" itemprop="Headline">{{portfolio.title}}</h2>
-            <div class="text-hover">
+            <a href="#{{portfolio.id}}">
+                <h2 class="text-align" itemprop="Headline">{{portfolio.title}}</h2>
+                <div class="text-hover">
                 <p class="text-align" itemprop="Genre">{{portfolio.classification}}</p>
-            </div>
+            </a>
         </div>
-        <div class="hide_element">
+        </div>
+        
+        <div id="{{portfolio.id}}" class="content">
             <div class="width box">	
                 <p class="text-align" itemprop="Definition">{{portfolio.definition}}</p> 
             </div>

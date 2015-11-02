@@ -198,7 +198,11 @@ video {
     opacity: 0.4;
 }
 
-.show_element:target {
+.content {
+    display: none;
+}
+
+.content:target {
     display: block;
 }
 

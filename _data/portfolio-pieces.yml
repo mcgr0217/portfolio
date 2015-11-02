@@ -1,5 +1,6 @@
 -  title: Gatineau Park
    classification: UX/UI Mobile App Design
+   id: portfolio-content2
    heading1: GP Trails
    definition: "I created an App for Gatineau Park to help adventurers get around and to encourage them to look into the history about certain locations. The color theme was inspired by the woods in Gatineau Park during summer time."
    images-application: images/image.svg
@@ -9,6 +10,7 @@
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
+   id: portfolio-content2
    heading1: DEFINITION
    definition: "Creating a concept for a television network, Including a broadcast package with title reveal, lower thirds, sidebar animation and transitions."
    images-application: images/image.svg
@@ -18,6 +20,7 @@
    
 -  title: Graphic Design
    classification: Branding
+   id: portfolio-content3
    heading1: DEFINITION
    definition: "Rebranding Serenade Kennels and creating a branding book to ensure that the future designs will remain consistent with the branding guidelines. For the branding book i kept it clean and simple, easy to navigate and I stayed within the color theme of the brand."
    images-application: images/image.svg
@@ -27,6 +30,7 @@
    
 -  title: Capturing Moments
    classification: Photography
+   id: portfolio-content4
    heading1: DEFINITION
    definition: "While growing up in Cyprus I fell in love with the surroundings and all the history that I naturally fell in love with photography while capturing its beauty and its motivated me to adventure as much as I can and to just capture beautiful moments in life. From adventuring on a beautiful mediterranean Island to adventuring in the wilderness of Canada, I thrive to explore and to enjoy what life has to offer."
    images-application: images/image.svg
@@ -36,6 +40,7 @@
 
 -  title: Isometric Illustration
    classification: Illustration
+   id: portfolio-content5
    heading1: DEFINITION
    definition: "An isometric illustration explaining a process. Creating simple flat & isometric sketches as if it were in 3D. Creating the movie theatre experience but for viewers at home. The illustration protrays the real life cinema experience but the setting is in a laptop to show that these days most people watch their movies at home on their laptops. The proportion is out of perspective to illustrate what the real life objects at home would be."
    images-application: images/image.svg
