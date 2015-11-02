@@ -206,14 +206,15 @@ video {
     display: block;
 }
 
-.close:target {
-    display: none;
-}
-
 .close {
     display: block;
     text-align: center;
     width: 10%;
+    margin-left: 50%;
+}
+
+.close:target {
+    display: none;
 }
 
 .embed {
