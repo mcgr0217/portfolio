@@ -210,6 +210,11 @@ video {
     display: none;
 }
 
+.close {
+    display: block;
+    text-align: center;
+}
+
 .embed {
     margin-left: 0;
     margin-right: 0;
