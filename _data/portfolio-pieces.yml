@@ -8,6 +8,7 @@
    images-layout: images/image.svg
    images-layout-alt: Screen displaying the Gatineau Park App 
    images-close: images/close.svg
+   images-layout-alt: close section
    id: close
 
 -  title: TV Broadcasting 
@@ -20,6 +21,7 @@
    images-layout: images/image.svg
    images-layout-alt: screen cap of motion
    images-close: images/close.svg
+   images-layout-alt: close section
    id: close
    
 -  title: Graphic Design
@@ -32,6 +34,7 @@
    images-layout: images/image.svg
    images-layout-alt: Displaying the branding book
    images-close: images/close.svg
+   images-layout-alt: close section
    id: close
    
 -  title: Capturing Moments
@@ -44,6 +47,7 @@
    images-layout: images/image.svg
    images-layout-alt: Images of photography
    images-close: images/close.svg
+   images-layout-alt: close section
    id: close
 
 -  title: Isometric Illustration
@@ -56,4 +60,5 @@
    images-layout: images/image.svg
    images-layout-alt: Complete Isometric Illustration
    images-close: images/close.svg
+   images-layout-alt: close section
    id: close
