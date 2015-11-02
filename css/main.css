@@ -206,6 +206,10 @@ video {
     display: block;
 }
 
+.close:target {
+    display: none;
+}
+
 .embed {
     margin-left: 0;
     margin-right: 0;

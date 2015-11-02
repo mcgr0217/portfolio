@@ -7,6 +7,7 @@
    images-application-alt: Screen displaying the prototypes
    images-layout: images/image.svg
    images-layout-alt: Screen displaying the Gatineau Park App 
+   images-close: images/close.svg
    id: close
 
 -  title: TV Broadcasting 
@@ -18,6 +19,7 @@
    images-application-alt: Screen Caps of motion
    images-layout: images/image.svg
    images-layout-alt: screen cap of motion
+   images-close: images/close.svg
    id: close
    
 -  title: Graphic Design
@@ -29,6 +31,7 @@
    images-application-alt: Serenade kennels prototyping
    images-layout: images/image.svg
    images-layout-alt: Displaying the branding book
+   images-close: images/close.svg
    id: close
    
 -  title: Capturing Moments
@@ -40,6 +43,7 @@
    images-application-alt: Images of photography
    images-layout: images/image.svg
    images-layout-alt: Images of photography
+   images-close: images/close.svg
    id: close
 
 -  title: Isometric Illustration
@@ -50,5 +54,6 @@
    images-application: images/image.svg
    images-application-alt: Illustration process
    images-layout: images/image.svg
-   images-layout-alt: Complete Isometric Illustration 
+   images-layout-alt: Complete Isometric Illustration
+   images-close: images/close.svg
    id: close
