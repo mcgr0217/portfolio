@@ -22,7 +22,7 @@
    images-layout-alt: screen cap of motion
    images-close: images/close.svg
    images-layout-alt: close section
-   id: close
+   id: close TV Broadcasting
    
 -  title: Graphic Design
    classification: Branding
@@ -35,7 +35,7 @@
    images-layout-alt: Displaying the branding book
    images-close: images/close.svg
    images-layout-alt: close section
-   id: close
+   id: close Branding
    
 -  title: Capturing Moments
    classification: Photography
@@ -48,7 +48,7 @@
    images-layout-alt: Images of photography
    images-close: images/close.svg
    images-layout-alt: close section
-   id: close
+   id: close Photography
 
 -  title: Isometric Illustration
    classification: Illustration
@@ -61,4 +61,4 @@
    images-layout-alt: Complete Isometric Illustration
    images-close: images/close.svg
    images-layout-alt: close section
-   id: close
+   id: close Illustration

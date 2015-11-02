@@ -194,6 +194,10 @@ video {
     transition-timing-function: linear;
 }
 
+a {
+    text-decoration: none;
+}
+
 .select-box:hover {
     opacity: 0.4;
 }
