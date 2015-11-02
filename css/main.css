@@ -207,7 +207,7 @@ video {
 }
 
 .close:target {
-    display: none;
+    display: hide;
 }
 
 .close {
