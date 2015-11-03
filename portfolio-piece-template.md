@@ -6,8 +6,6 @@ About: Info about my website
 ---
 UI/UX:
     icon:
-Web Design:
-    icon:
 Photography:
     icon:
 ---

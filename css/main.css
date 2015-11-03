@@ -47,6 +47,7 @@ body {
 
 .logo {
     padding: 1rem;
+    width: 100%;
 }
 
 h2 {
@@ -63,6 +64,10 @@ img {
     width: 100%;
 }
 
+.white {
+    color: #fff;
+}
+
 .width {
    margin: 2rem; 
 }
@@ -73,6 +78,7 @@ img {
 
 .text-hover {
     height: 100%;
+    color: #004C72;
 }
 
 .box1 {
@@ -185,10 +191,11 @@ video {
 }
 
 .select-box {
-    background-color: #D9DADE;
+    background-color: #004C72;
     padding: 3rem;
     text-align: center;
     width: 100%;
+    text-decoration: none;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -199,7 +206,8 @@ a {
 }
 
 .select-box:hover {
-    opacity: 0.4;
+    opacity: 0.5;
+    background-color: #006289;
 }
 
 .content {

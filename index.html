@@ -45,25 +45,20 @@ Changefreq: weekly
     </div>
 </section>
 
-<div id="contentbox">
-    <div class="imagediv"></div>
-    <div class="hidediv"></div>
-</div>
-
 {% for portfolio in site.data.portfolio-pieces %}
 
-    <div id="portfolio">
+    <div id="portfolio-{{portfolio.id}}">
         <div class="hover select-box view_element">
             <a href="#{{portfolio.id}}">
-                <h2 class="text-align" itemprop="Headline">{{portfolio.title}}</h2>
+                <h2 class="white text-align" itemprop="Headline">{{portfolio.title}}</h2>
                 <div class="text-hover">
-                <p class="text-align" itemprop="Genre">{{portfolio.classification}}</p>
+                <p class="white text-align" itemprop="Genre">{{portfolio.classification}}</p>
             </a>
         </div>
         </div>
         
         <div id="{{portfolio.id}}" class="content">
-            <div class="width box">	
+            <div class="width box">
                 <p class="text-align" itemprop="Definition">{{portfolio.definition}}</p> 
             </div>
             <div class="grid pad-b">
@@ -73,7 +68,7 @@ Changefreq: weekly
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter pad-b">
                     <img class="image" src="images/image.svg" alt="{{portfolio.images-process-alt}} ">
                 </div>
-                <a href="#{{portfolio.id}}">
+                <a href="#portfolio-{{portfolio.id}}">
                     <img class="close" src="images/close.svg">
                 </a>
             </div>
