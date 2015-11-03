@@ -83,7 +83,7 @@ img {
 
 .box1 {
     margin-top: 1rem;
-    padding: 3rem;
+    padding: 10rem;
     width: 100%;
     text-align: center;
 }
@@ -160,8 +160,8 @@ video {
 
 .btt {
     text-decoration: none;
-    color: #000;
-    background-color: #D9DADE;
+    color: #fff;
+    background-color: #004C72;
     font-family: sans-serif;
     padding: 1rem;
 }
