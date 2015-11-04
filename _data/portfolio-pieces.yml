@@ -8,6 +8,7 @@
    images-layout: images/image.svg
    images-layout-alt: Screen displaying the Gatineau Park App 
    images-close: images/close.svg
+   image-include: isometric.html
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
@@ -19,6 +20,7 @@
    images-layout: images/image.svg
    images-layout-alt: screen cap of motion
    images-close: images/close.svg
+   image-include: isometric.html
    
 -  title: Capturing Moments
    classification: Photography
@@ -30,14 +32,18 @@
    images-layout: images/image.svg
    images-layout-alt: Images of photography
    images-close: images/close.svg
+   image-include: photography.html
 
 -  title: Isometric Illustration
    classification: Illustration
    id: isometric-illustration
    heading1: DEFINITION
    definition: "An isometric illustration explaining a process. Creating simple flat & isometric sketches as if it were in 3D. Creating the movie theatre experience but for viewers at home. The illustration protrays the real life cinema experience but the setting is in a laptop to show that these days most people watch their movies at home on their laptops. The proportion is out of perspective to illustrate what the real life objects at home would be."
+   image-include: isometric.html
+   images-isometric: images/isometric.png
+   images-isometric-alt: Final Illustration
    images-application: images/image.svg
    images-application-alt: Illustration process
-   images-layout: images/image.svg
+   images-layout: images/isometric.png
    images-layout-alt: Complete Isometric Illustration
    images-close: images/close.svg

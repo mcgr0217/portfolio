@@ -61,13 +61,8 @@ Changefreq: weekly
             <div class="width box">
                 <p class="text-align" itemprop="Definition">{{portfolio.definition}}</p> 
             </div>
+            {% include {{portfolio.image-include}} %}
             <div class="grid pad-b">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-                    <img class="image" src="images/image.svg" alt="{{portfolio.images-process-alt}}">
-                </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter pad-b">
-                    <img class="image" src="images/image.svg" alt="{{portfolio.images-process-alt}} ">
-                </div>
                 <a href="#portfolio-{{portfolio.id}}">
                     <img class="close" src="images/close.svg">
                 </a>
