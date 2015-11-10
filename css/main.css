@@ -88,14 +88,9 @@ img {
     text-align: center;
 }
 
-.nav-bar {
-    width: 100%;
-    padding: .5rem;
-    background-color: rgba(255,255,255,0.5);
-}
-
 nav {
     padding: .5rem;
+    background-color: transparent;
 }
 
 nav a {
@@ -138,11 +133,44 @@ p {
     width: 100%;
 }
 
-.image {
+.box2 {
+    background-color: #303030;
+}
+
+.whitet {
+    color: #fff;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.white {
+    color: #fff;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+.images {
     padding-top: 3rem;
     padding: 1rem;
     text-align: center;
     width: 100%;
+}
+
+.text {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+
+.bilimage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .center {
@@ -262,19 +290,11 @@ a {
     .box1 {
         padding: 1rem;
     }
-    .nav-bar {
-        width: 100%;
-        background-color: #fff;
-    }
 }
 
 @media only screen and (min-width: 20em) {
     .about {
         padding: 1.5rem;
-    }
-    .nav-bar {
-        width: 100%;
-        background-color: #fff;
     }
     .widthx {
         margin: 0;
@@ -286,16 +306,21 @@ a {
         text-align: center;
         padding: 1rem;
     }
+    .text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .white {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
 }
  
 @media only screen and (min-width: 35em) {
     .about {
         padding-bottom: 0;
         padding-top: 2rem;
-    }
-    .nav-bar {
-        width: 100%;
-        background-color: rgba(255,255,255,0.5);
     }
     .navtext {
         font-size: .75rem;
@@ -306,6 +331,14 @@ a {
     .social-icon {
         width: 40%;
     }
+    .text {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .white {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 @media only screen and (min-width: 55em) { 
@@ -315,15 +348,19 @@ a {
         padding-left: 6rem;
         padding-right: 6rem;
     }
-    .nav-bar {
-        width: 100%;
-        background-color: transparent;
-    }
     .services {
         padding-bottom: 2rem;
     }
     .social-icon {
         width: 30%;
+    }
+    .text {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .white {
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 }
      

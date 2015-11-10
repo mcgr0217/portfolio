@@ -2,13 +2,13 @@
    classification: UX/UI Mobile App Design
    id: gatineau-park
    heading1: GP Trails
-   definition: "I created an App for Gatineau Park to help adventurers get around and to encourage them to look into the history about certain locations. The color theme was inspired by the woods in Gatineau Park during summer time."
-   images-application: images/image.svg
-   images-application-alt: Screen displaying the prototypes
-   images-layout: images/image.svg
-   images-layout-alt: Screen displaying the Gatineau Park App 
-   images-close: images/close.svg
-   image-include: isometric.html
+   image-include: gatineau.html
+   
+-  title: Alarm Buddy
+   classification: UX/UI Mobile App Design
+   id: alarm-buddy
+   heading1: Alarm Buddy
+   image-include: alarm.html
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
