@@ -19,7 +19,7 @@ Changefreq: weekly
 {% for portfolio in site.data.portfolio-pieces %}
 
     <div id="portfolio-{{portfolio.id}}">
-        <div class="hover select-box view_element">
+        <div class="hover select-box view_element" style="background-image: url({{site.baseurl}}/images/{{portfolio.bg}});">
             <a href="#{{portfolio.id}}">
                 <h2 class="white text-align" itemprop="Headline">{{portfolio.title}}</h2>
                 <div class="text-hover">
@@ -30,7 +30,7 @@ Changefreq: weekly
         
         <div id="{{portfolio.id}}" class="content">
             {% include {{portfolio.image-include}} %}
-            <div class="grid pad-b">
+            <div class="pad-b">
                 <a href="#portfolio-{{portfolio.id}}">
                     <img class="text-align close" src="images/close.svg">
                 </a>

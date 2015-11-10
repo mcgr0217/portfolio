@@ -170,16 +170,13 @@ p {
 
 .whitet {
     color: #fff;
-    padding-top: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 1rem;
     text-align: center;
 }
 
 .white {
     color: #fff;
-    padding-bottom: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
@@ -413,9 +410,6 @@ a {
     .white {
         padding-left: 6rem;
         padding-right: 6rem;
-    }
-    .content-to-hide {
-        display: inherit;
     }
 }
 
