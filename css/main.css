@@ -52,6 +52,14 @@ body {
 
 h2 {
     font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    color: #004C72;
+}
+
+h1 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    color: #004C72;
 }
 
 .icons {
@@ -87,6 +95,8 @@ img {
 
 .text-hover {
     height: 100%;
+    padding: 0;
+    margin: 0;
     color: #004C72;
 }
 
@@ -97,15 +107,23 @@ img {
     text-align: center;
 }
 
-nav {
+.nav {
     padding: .5rem;
     background-color: transparent;
+    position: absolute;
+    top: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #004C72;
+    font-weight: 500;
+    text-align: center;
     font-family: sans-serif;
+}
+
+.navtext {
+    position: relative;
 }
 
 .services {
@@ -169,7 +187,6 @@ p {
 
 .images {
     padding-top: 3rem;
-    padding: 1rem;
     text-align: center;
     width: 100%;
 }
@@ -235,15 +252,61 @@ video {
     padding: 0;
 }
 
+.iso {
+    padding: 2rem;
+    width: 70%;
+}
+
+.pad4 {
+    padding: 1rem;
+}
+
+.isometric {
+    padding: 5rem;
+}
+
 .select-box {
     background-color: #004C72;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     width: 100%;
     text-decoration: none;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    animation-duration: 3s;
+    animation-name: slideout;
+}
+
+.slideout {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slideout {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+    
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes slideout {
+    from {
+        margin-top: 100%;
+        width: 300%;
+    }
+    
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
 }
 
 a {
@@ -295,9 +358,8 @@ a {
 
 @media only screen and (min-width: 5em) {
     .about {
-        padding: 1rem;
+        padding: 2rem;
         margin: 0;
-        padding-top: 1rem;
     }
     .box {
         padding: 1rem;
@@ -329,13 +391,11 @@ a {
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    
 }
  
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 40em) {
     .about {
-        padding-bottom: 0;
-        padding-top: 2rem;
+        padding: 1.5rem;
     }
     .navtext {
         font-size: .75rem;
@@ -354,14 +414,14 @@ a {
         padding-left: 6rem;
         padding-right: 6rem;
     }
+    .content-to-hide {
+        display: inherit;
+    }
 }
 
 @media only screen and (min-width: 55em) { 
     .about{
-        padding-bottom: 0;
-        padding-top: 2rem;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding: 2rem;
     }
     .services {
         padding-bottom: 2rem;
@@ -370,18 +430,21 @@ a {
         width: 30%;
     }
     .text {
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
     .white {
         padding-left: 10rem;
         padding-right: 10rem;
     }
+    .iso {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 70em) { 
     .text {
-        padding-left: 14rem;
-        padding-right: 14rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
     .white {
         padding-left: 14rem;

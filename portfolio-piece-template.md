@@ -1,13 +1,9 @@
 Title: Samantha McGregor
 
-Bilboard: bilboardimage.jpg
+Bilboard: bilboardvideo
 
 About: Info about my website
----
-UI/UX:
-    icon:
-Photography:
-    icon:
+
 ---
 UI/UX:
 Image

@@ -5,7 +5,7 @@
    image-include: gatineau.html
    
 -  title: Alarm Buddy
-   classification: UX/UI Mobile App Design
+   classification: Case Study
    id: alarm-buddy
    heading1: Alarm Buddy
    image-include: alarm.html
@@ -21,7 +21,7 @@
    images-layout: images/image.svg
    images-layout-alt: screen cap of motion
    images-close: images/close.svg
-   image-include: isometric.html
+   image-include: tv.html
    
 -  title: Capturing Moments
    classification: Photography
@@ -36,10 +36,10 @@
    image-include: photography.html
 
 -  title: Isometric Illustration
-   classification: Illustration
+   classification: Home Theatre
    id: isometric-illustration
    heading1: DEFINITION
-   definition: "An isometric illustration explaining a process. Creating simple flat & isometric sketches as if it were in 3D. Creating the movie theatre experience but for viewers at home. The illustration protrays the real life cinema experience but the setting is in a laptop to show that these days most people watch their movies at home on their laptops. The proportion is out of perspective to illustrate what the real life objects at home would be."
+   definition: "An isometric illustration explaining a process. Creating simple flat & isometric sketches as if it were in 3D. Creating the movie theatre experience but for viewers at home."
    image-include: isometric.html
    images-isometric: images/isometric.png
    images-isometric-alt: Final Illustration

@@ -10,27 +10,11 @@ Changefreq: weekly
 <div id="about">
     <section class="about"> 
         <div class="about">
-            <h2 itemprop="author">Hey i'm Samantha!</h2>
-            <p itemprop="about">I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and love creating beautiful, simple and effective designs. UX/UI, branding, photography, designing, and anything artsy are my passions. I love to create a mixture of design and usuability to create a long lasting impression.</p>
+            <h1 itemprop="author">Hey i'm Samantha!</h1>
+            <p class="text-align island" itemprop="about">I’m a Graphic Designer whos always down for a good adventure. I'm a creative thinker, innovater/ problem solver and I love to create beautiful, simple and effective designs. UX/UI, branding, web design and photography are my passions. I love to create a mixture of design and usuability in order to create a long lasting impression.</p>
         </div>
     </section>
 </div>
-
-<section class="services">
-    <div class="services">
-        <h2 itemprop="What I love to do">What I love to do!</h2>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
-            <a href="https://www.behance.net/McgregorS">
-            <img src="images/design.svg" aria-label="Graphic Design and Web Design Icon" class="icon" alt="Design Icon"></a>
-            <p class="caption">Graphic Design &amp; Web Design</p>
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
-            <a href="">
-            <img src="images/photog.svg" aria-label="Photography Icon" class="icon" alt="Photography Icon"></a>
-            <p class="caption">Photography</p>
-        </div>
-    </div>
-</section>
 
 {% for portfolio in site.data.portfolio-pieces %}
 
@@ -45,9 +29,6 @@ Changefreq: weekly
         </div>
         
         <div id="{{portfolio.id}}" class="content">
-            <div class="width box">
-                <p class="text-align" itemprop="Definition">{{portfolio.definition}}</p> 
-            </div>
             {% include {{portfolio.image-include}} %}
             <div class="grid pad-b">
                 <a href="#portfolio-{{portfolio.id}}">
