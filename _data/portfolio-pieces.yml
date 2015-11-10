@@ -3,7 +3,7 @@
    id: gatineau-park
    heading1: GP Trails
    image-include: gatineau.html
-   bg: images/gp.png
+   bg: gp.png
    
 -  title: Alarm Buddy
    classification: Case Study
@@ -11,7 +11,7 @@
    heading1: Alarm Buddy
    image-include: alarm.html
    images-close: images/close.svg
-   bg: images/alarm.png
+   bg: orange.png
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
@@ -36,6 +36,7 @@
    images-layout-alt: Images of photography
    images-close: images/close.svg
    image-include: photography.html
+   bg: flower.png
 
 -  title: Isometric Illustration
    classification: Home Theatre
