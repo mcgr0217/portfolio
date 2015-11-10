@@ -54,6 +54,10 @@ h2 {
     font-family: 'raleway', sans-serif;
 }
 
+.icons {
+    padding: 2rem;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -74,6 +78,11 @@ img {
 
 .text-align {
     text-align: center;
+}
+
+.text-align1 {
+    text-align: center;
+    padding: 1rem;
 }
 
 .text-hover {
@@ -137,6 +146,10 @@ p {
     background-color: #303030;
 }
 
+.box3 {
+    background-color: #F7911E;
+}
+
 .whitet {
     color: #fff;
     padding-top: 3rem;
@@ -163,6 +176,8 @@ p {
 
 .text {
     padding-left: 10rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
     padding-right: 10rem;
     text-align: center;
 }
@@ -250,9 +265,9 @@ a {
 
 .close {
     display: block;
-    text-align: center;
-    width: 10%;
-    margin-left: 50%;
+    width: 15%;
+    padding-top: 2rem;
+    margin: 0 auto;
 }
 
 .close:target {
@@ -307,12 +322,12 @@ a {
         padding: 1rem;
     }
     .text {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .white {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     
 }
@@ -363,4 +378,13 @@ a {
         padding-right: 10rem;
     }
 }
-     
+@media only screen and (min-width: 70em) { 
+    .text {
+        padding-left: 14rem;
+        padding-right: 14rem;
+    }
+    .white {
+        padding-left: 14rem;
+        padding-right: 14rem;
+    }
+}

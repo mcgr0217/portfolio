@@ -9,6 +9,7 @@
    id: alarm-buddy
    heading1: Alarm Buddy
    image-include: alarm.html
+   images-close: images/close.svg
 
 -  title: TV Broadcasting 
    classification: Motion Graphics
