@@ -47,7 +47,7 @@ body {
 
 .logo {
     padding: 1rem;
-    width: 100%;
+    width: 50%;
 }
 
 h2 {
@@ -90,7 +90,8 @@ img {
 
 .nav-bar {
     width: 100%;
-    padding: 1rem;
+    padding: .5rem;
+    background-color: rgba(255,255,255,0.5);
 }
 
 nav {
@@ -156,6 +157,7 @@ video {
 .widthx {
     margin: 0;
     padding: 0;
+    z-index: -40;
 }
 
 .btt {
@@ -280,16 +282,23 @@ a {
     .social-icon {
         width: 50%;
     }
+    .logo {
+        text-align: center;
+        padding: 1rem;
+    }
 }
  
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 35em) {
     .about {
         padding-bottom: 0;
         padding-top: 2rem;
     }
     .nav-bar {
         width: 100%;
-        display: none;
+        background-color: rgba(255,255,255,0.5);
+    }
+    .navtext {
+        font-size: .75rem;
     }
     .services {
         padding-bottom: 2rem;
