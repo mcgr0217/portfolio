@@ -117,8 +117,8 @@ img {
     text-align: center;
 }
 
-.box6 {
-    padding: 12rem;
+.box7 {
+    padding: 10rem;
     color: #fff;
     font-weight: 700;
     width: 100%;
@@ -212,9 +212,14 @@ p {
 }
 
 .images {
-    padding-top: 3rem;
+    padding-top: 1rem;
     text-align: center;
     width: 100%;
+}
+
+.insta {
+    padding-top: 2rem;
+    width: 10%;
 }
 
 .text {
@@ -251,7 +256,8 @@ video {
     color: #fff;
     background-color: #004C72;
     font-family: sans-serif;
-    padding: 1rem;
+    padding: .75rem;
+    margin: 2rem;
 }
 
 .contact {
@@ -272,7 +278,6 @@ video {
 
 .contact-icon {
     max-width: 30%;
-    position: relative;
     transform: translateX(120%);
     margin: 0;
     padding: 0;
