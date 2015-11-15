@@ -26,19 +26,6 @@
    image-include: tv.html
    bg: tv.png
    
--  title: Capturing Moments
-   classification: Photography
-   id: capturing-moments
-   heading1: DEFINITION
-   definition: "While growing up in Cyprus I fell in love with the surroundings and all the history that I naturally fell in love with photography while capturing its beauty and its motivated me to adventure as much as I can and to just capture beautiful moments in life. From adventuring on a beautiful mediterranean Island to adventuring in the wilderness of Canada, I thrive to explore and to enjoy what life has to offer."
-   images-application: images/image.svg
-   images-application-alt: Images of photography
-   images-layout: images/image.svg
-   images-layout-alt: Images of photography
-   images-close: images/close.svg
-   image-include: photography.html
-   bg: flower.png
-
 -  title: Isometric Illustration
    classification: Home Theatre
    id: isometric-illustration
@@ -53,3 +40,17 @@
    images-layout-alt: Complete Isometric Illustration
    images-close: images/close.svg
    bg: iso.png
+   
+
+-  title: Capturing Moments
+   classification: Photography
+   id: capturing-moments
+   heading1: DEFINITION
+   definition: "While growing up in Cyprus I fell in love with the surroundings and all the history that I naturally fell in love with photography while capturing its beauty and its motivated me to adventure as much as I can and to just capture beautiful moments in life. From adventuring on a beautiful mediterranean Island to adventuring in the wilderness of Canada, I thrive to explore and to enjoy what life has to offer."
+   images-application: images/image.svg
+   images-application-alt: Images of photography
+   images-layout: images/image.svg
+   images-layout-alt: Images of photography
+   images-close: images/close.svg
+   image-include: photography.html
+   bg: flower.png
