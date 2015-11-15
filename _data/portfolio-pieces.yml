@@ -5,14 +5,6 @@
    image-include: gatineau.html
    bg: gp.png
    
--  title: Alarm Buddy
-   classification: Case Study
-   id: alarm-buddy
-   heading1: Alarm Buddy
-   image-include: alarm.html
-   images-close: images/close.svg
-   bg: orange.png
-
 -  title: TV Broadcasting 
    classification: Motion Graphics
    id: tv-broadcasting
@@ -25,6 +17,14 @@
    images-close: images/close.svg
    image-include: tv.html
    bg: tv.png
+   
+-  title: Alarm Buddy
+   classification: Case Study
+   id: alarm-buddy
+   heading1: Alarm Buddy
+   image-include: alarm.html
+   images-close: images/close.svg
+   bg: orange.png
    
 -  title: Isometric Illustration
    classification: Home Theatre
