@@ -24,6 +24,7 @@
    images-layout-alt: screen cap of motion
    images-close: images/close.svg
    image-include: tv.html
+   bg: tv.png
    
 -  title: Capturing Moments
    classification: Photography
@@ -51,3 +52,4 @@
    images-layout: images/isometric.png
    images-layout-alt: Complete Isometric Illustration
    images-close: images/close.svg
+   bg: iso.png
