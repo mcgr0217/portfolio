@@ -251,18 +251,34 @@ video {
     z-index: -40;
 }
 
+ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.contact-icon {
+    width: 1.5em;
+    margin: 0;
+    padding-left: 1rem;
+    font-family: sans-serif;
+    list-style: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+
 .btt {
     text-decoration: none;
-    color: #fff;
-    background-color: #004C72;
+    color: #000;
     font-family: sans-serif;
-    padding: .75rem;
-    margin: 2rem;
+    padding-bottom: 2rem;
+    margin: 5rem;
 }
 
 .contact {
     text-align: center;
     width: 100%;
+    list-style: none;
+    text-decoration: none;
     padding: 1rem;
 }
 
@@ -337,6 +353,14 @@ a {
 
 .close:target {
     display: none;
+}
+
+.copyright {
+    color: #282828;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 3em;
 }
 
 .embed {

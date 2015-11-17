@@ -1,4 +1,4 @@
 permalink: pretty
-baseurl: /jekyll-intro
+baseurl: /portfolio
 exclude: ["README.md"]
 permalink: pretty
