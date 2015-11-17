@@ -420,6 +420,23 @@ a {
     .navtext {
         font-size: 12px;
     }
+    .mood {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+    .spacer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        width: 100%;
+    }
+    .text2 {
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+    }
 }
  
 @media only screen and (min-width: 40em) {
@@ -439,9 +456,26 @@ a {
         padding-left: 6rem;
         padding-right: 6rem;
     }
+    .text2 {
+        padding-top: 4rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-bottom: 5rem;
+    }
     .white {
         padding-left: 6rem;
         padding-right: 6rem;
+    }
+    .mood {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-bottom: 8rem;
+        width: 100%;
+    }
+    .spacer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        width: 100%;
     }
 }
 
@@ -455,6 +489,12 @@ a {
     .social-icon {
         width: 30%;
     }
+    .text2 {
+        padding-left: 12rem;
+        padding-right: 12rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
     .text {
         padding-left: 8rem;
         padding-right: 8rem;
@@ -464,6 +504,17 @@ a {
         padding-right: 10rem;
     }
     .iso {
+        width: 100%;
+    }
+    .mood {
+        padding-left: 9rem;
+        padding-right: 9rem;
+        padding-bottom: 8rem;
+        width: 100%;
+    }
+    .spacer {
+        padding-left: 8rem;
+        padding-right: 8rem;
         width: 100%;
     }
 }
