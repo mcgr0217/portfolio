@@ -127,10 +127,10 @@ img {
 }
 
 .nav {
-    padding: .5rem;
     background-color: transparent;
     position: absolute;
-    top: 20px;
+    top: 15px;
+    padding: .5rem;
 }
 
 nav a {
@@ -143,6 +143,7 @@ nav a {
 
 .navtext {
     position: relative;
+    text-align: center;
 }
 
 .services {
@@ -181,6 +182,7 @@ p {
 
 .box2 {
     background-color: #303030;
+    padding: 10rem;
 }
 
 .box3 {
@@ -218,7 +220,8 @@ p {
 }
 
 .insta {
-    padding-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     width: 10%;
 }
 
@@ -355,6 +358,10 @@ a {
     display: none;
 }
 
+.soc {
+    width: 20%;
+}
+
 .copyright {
     color: #282828;
     font-size: 8pt;
@@ -477,11 +484,17 @@ a {
         padding-right: 5rem;
         width: 100%;
     }
+    .insta {
+       width: 7%; 
+    }
 }
 
 @media only screen and (min-width: 55em) { 
     .about{
         padding: 2rem;
+    }
+    .insta {
+       width: 6%; 
     }
     .services {
         padding-bottom: 2rem;
