@@ -530,6 +530,9 @@ a {
         padding-right: 8rem;
         width: 100%;
     }
+    .soc {
+        width: 15%;
+    }
 }
 @media only screen and (min-width: 70em) { 
     .text {
