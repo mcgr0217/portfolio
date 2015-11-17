@@ -177,6 +177,7 @@ p {
 .box2 {
     background-color: #D4EEFF;
     padding: 2rem;
+    
 }
 
 .box3 {
@@ -350,10 +351,6 @@ a {
 
 .close:target {
     display: none;
-}
-
-.soc {
-    width: 20%;
 }
 
 .copyright {
