@@ -112,7 +112,7 @@ img {
 
 .box1 {
     margin-top: 1rem;
-    padding: 8rem;
+    padding: 7rem;
     width: 100%;
     text-align: center;
 }
@@ -155,7 +155,7 @@ nav a {
 }
 
 .icon {
-    width: 10rem;
+    width: 7rem;
     text-align: center;
     padding: 1rem;
     transition-property: all;
@@ -404,7 +404,7 @@ a {
 
 @media only screen and (min-width: 20em) {
     .about {
-        padding: 1.5rem;
+        padding: 1rem;
     }
     .widthx {
         margin: 0;
