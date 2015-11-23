@@ -422,7 +422,7 @@ a {
     .widthx {
         margin: 0;
     }
-    .embed--16by9 {
+    .width {
         width: 300%;
         left: -100%;
     }
