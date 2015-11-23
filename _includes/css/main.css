@@ -302,6 +302,7 @@ ul {
 
 .social-link {
     color: #fff;
+    width: 50%;
     opacity: .5;
     text-decoration: none;
 }
