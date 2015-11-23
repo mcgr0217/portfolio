@@ -293,11 +293,17 @@ ul {
 
 .email {
     font-family: sans-serif;
-    color: #d8eff4;
+    color: #004C72;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     letter-spacing: .09rem;
+}
+
+.social-link {
+    color: #fff;
+    opacity: .5;
+    text-decoration: none;
 }
 
 .social-icon {
