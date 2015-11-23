@@ -466,6 +466,12 @@ a {
     }
     
 }
+
+@media (max-aspect-ratio: 16/9)
+    .embed_item > video {
+    width: 300%;
+    left: -100%;
+}
  
 @media only screen and (min-width: 40em) {
     .about {
