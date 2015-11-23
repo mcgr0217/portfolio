@@ -458,11 +458,13 @@ a {
         padding-bottom: 5rem;
     }
     .embed {
-        margin-left: 0;
-        margin-right: 0;
-        position: relative;
         width: 50%;
-}
+    }
+    .embed_item {
+        width: 50%;
+        height: 120%;
+    }
+    
 }
  
 @media only screen and (min-width: 40em) {
