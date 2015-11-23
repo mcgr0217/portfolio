@@ -456,10 +456,6 @@ a {
         padding-right: 4rem;
         padding-bottom: 5rem;
     }
-    .embed {
-        width: 200%;
-    }
-    
 }
  
 @media only screen and (min-width: 40em) {
