@@ -302,7 +302,7 @@ ul {
 
 .social-link {
     color: #fff;
-    max-width: 20%
+    max-width: 10%
     opacity: .5;
     text-decoration: none;
 }
@@ -457,6 +457,12 @@ a {
         padding-right: 4rem;
         padding-bottom: 5rem;
     }
+    .embed {
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        width: 50%;
+}
 }
  
 @media only screen and (min-width: 40em) {
