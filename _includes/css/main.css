@@ -479,6 +479,7 @@ a {
     .text {
         padding-left: 6rem;
         padding-right: 6rem;
+        text-align: center;
     }
     .text2 {
         padding-top: 4rem;
