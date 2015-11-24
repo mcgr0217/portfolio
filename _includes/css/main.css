@@ -238,6 +238,11 @@ p {
     text-align: center;
 }
 
+h1,
+h5 {
+    font-family: sans-serif;
+}
+
 video {
     height: auto;
     width: 100%;
