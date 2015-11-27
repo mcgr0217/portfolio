@@ -333,10 +333,6 @@ ul {
     padding: 1rem;
 }
 
-.isometric {
-    padding: 5rem;
-}
-
 .select-box {
     background-color: #004C72;
     opacity: 0.5;
@@ -421,7 +417,7 @@ a {
 
 @media only screen and (min-width: 20em) {
     .about {
-        padding: 1rem;
+        padding: .5rem;
     }
     .widthx {
         margin: 0;
@@ -434,8 +430,8 @@ a {
         padding: 1rem;
     }
     .text {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .white {
         padding-left: 3rem;
@@ -457,8 +453,14 @@ a {
     }
     .text2 {
         padding-top: 4rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 5rem;
+    }
+    .text {
+        padding-top: 4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         padding-bottom: 5rem;
     }
 }
