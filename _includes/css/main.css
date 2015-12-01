@@ -516,7 +516,7 @@ a {
 
 @media only screen and (min-width: 55em) { 
     .about{
-        padding: 2rem;
+        padding: 4rem;
     }
     .insta {
        width: 6%; 
@@ -563,6 +563,9 @@ a {
     .text {
         padding-left: 8rem;
         padding-right: 8rem;
+    }
+    .about{
+        padding: 6rem;
     }
     .white {
         padding-left: 14rem;
