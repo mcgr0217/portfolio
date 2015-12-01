@@ -93,11 +93,6 @@ img {
     text-align: center;
 }
 
-.text-align1 {
-    text-align: center;
-    padding: 1rem;
-}
-
 .text-hover {
     height: 100%;
     padding: 0;
@@ -440,15 +435,15 @@ a {
     }
     .text2 {
         padding-top: 2rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         padding-bottom: 4rem;
     }
     .text {
-        padding-top: 4rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-bottom: 5rem;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
     }
     .widthx {  
         width:100%;
