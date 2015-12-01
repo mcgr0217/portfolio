@@ -17,9 +17,7 @@ Changefreq: weekly
 </div>
 
 {% for portfolio in site.data.portfolio-pieces %}
-    <div id="portfolio">
-        <div id="portfolio-{{portfolio.id}}">
-            <div class="hover select-box view_element" style="background-image: url({{site.baseurl}}/images/{{portfolio.bg}});">
+    <div id="portfolio portfolio-{{portfolio.id}}" class="hover select-box view_element" style="background-image: url({{site.baseurl}}/images/{{portfolio.bg}});">
                 <a href="#{{portfolio.id}}">
                     <h2 class="white text-align" itemprop="Headline">{{portfolio.title}}</h2>
                     <div class="text-hover">
