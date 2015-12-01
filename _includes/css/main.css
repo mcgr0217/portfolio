@@ -404,6 +404,7 @@ a {
 @media only screen and (min-width: 20em) {
     .about {
         padding: .5rem;
+        padding-top: 1rem;
     }
     .widthx {
         margin: 0;
