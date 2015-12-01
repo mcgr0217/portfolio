@@ -404,8 +404,11 @@ a {
     .widthx {
         margin: 0;
     }
+    .box1 {
+        padding: 1rem;
+    }
     .social-icon {
-        width: 15%;
+        width: 20%;
     }
     .logo {
         text-align: center;
@@ -443,7 +446,7 @@ a {
         padding-top: 3rem;
         padding-left: 2rem;
         padding-right: 2rem;
-        padding-bottom: 4rem;
+        padding-bottom: 4srem;
     }
     .widthx {  
         width:100%;
