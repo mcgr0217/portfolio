@@ -400,19 +400,6 @@ a {
     padding-top: 56.25%;
 }
 
-@media only screen and (min-width: 5em) {
-    .about {
-        padding: .5rem;
-        margin: 0;
-    }
-    .box {
-        padding: 1rem;
-    }
-    .box1 {
-        padding: 1rem;
-    }
-}
-
 @media only screen and (min-width: 20em) {
     .about {
         padding: .5rem;
