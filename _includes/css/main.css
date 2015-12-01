@@ -101,7 +101,6 @@ img {
     height: 100%;
     padding: 0;
     margin: 0;
-    color: #004C72;
 }
 
 .box1 {
@@ -308,8 +307,7 @@ ul {
 
 .social-link {
     color: #fff;
-    max-width: 10%
-    opacity: .5;
+    max-width: 5%
     text-decoration: none;
 }
 
@@ -354,7 +352,6 @@ a {
 
 .select-box:hover {
     opacity: 1;
-    background-color: #006289;
 }
 
 .content {
