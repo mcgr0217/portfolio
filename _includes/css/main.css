@@ -120,6 +120,8 @@ img {
     position: absolute;
     top: 15px;
     padding: .5rem;
+    max-width: 30em;
+    margin: 0 auto;
 }
 
 nav a {
@@ -422,6 +424,7 @@ a {
     }
     .navtext {
         font-size: 12px;
+        text-align: center;
     }
     .mood {
         padding-left: 4rem;
