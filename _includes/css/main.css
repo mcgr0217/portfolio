@@ -120,8 +120,9 @@ img {
     position: absolute;
     top: 15px;
     padding: .5rem;
-    max-width: 30em;
     margin: 0 auto;
+    transform: translateX(50%);
+    max-width: 50%;
 }
 
 nav a {
@@ -406,6 +407,10 @@ a {
     }
     .box1 {
         padding: 1rem;
+    }
+    .nav {
+        max-width: 65%;
+        transform: translateX(35%);
     }
     .social-icon {
         width: 40%;
