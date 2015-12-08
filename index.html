@@ -17,13 +17,14 @@ Changefreq: weekly
 </div>
 
 {% for portfolio in site.data.portfolio-pieces %}
-
+    <div id="portfolio">
         <a id="portfolio portfolio-{{portfolio.id}}" href="#{{portfolio.id}}" class="select-box view_element" style="background-image: url({{site.baseurl}}/images/{{portfolio.bg}});">
             <h2 class="white text-align" itemprop="Headline">{{portfolio.title}}</h2>
             <div class="text-hover">
             <p class="white text-align" itemprop="Genre">{{portfolio.classification}}</p>
             </div>
         </a>
+    </div>
         <div id="{{portfolio.id}}" class="content">
             {% include {{portfolio.image-include}} %}
             <div class="pad-b">
