@@ -402,14 +402,14 @@ a {
 
 @media only screen and (min-width: 20em) {
     .about {
-        padding: .5rem;
+        padding: .75rem;
         padding-top: 1rem;
     }
     .box1 {
         padding: 1rem;
     }
     .nav {
-        max-width: 65%;
+        max-width: 60%;
         transform: translateX(35%);
     }
     .social-icon {
@@ -508,11 +508,14 @@ a {
         padding: 0;
         z-index: -40;
     }
+    .nav {
+        max-width: 60%;
+    }
 }
 
 @media only screen and (min-width: 55em) { 
     .about{
-        padding: 4rem;
+        padding: 3rem;
     }
     .insta {
        width: 6%; 
@@ -554,6 +557,11 @@ a {
     .soc {
         width: 15%;
     }
+    .widthx {
+        margin: -90px -100px;
+        padding: 0;
+        z-index: -40;
+    }
 }
 @media only screen and (min-width: 70em) { 
     .text {
@@ -561,14 +569,14 @@ a {
         padding-right: 8rem;
     }
     .about{
-        padding: 6rem;
+        padding: 3rem;
     }
     .white {
         padding-left: 14rem;
         padding-right: 14rem;
     }
     .widthx {
-        margin: -100px -100px;
+        margin: 0 -40px;
         padding: 0;
         z-index: -40;
     }
