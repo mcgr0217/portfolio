@@ -253,6 +253,12 @@ video {
     z-index: -40;
 }
 
+.widthz {
+    margin: 1px;
+    padding: 4rem;
+    z-index: -40;
+}
+
 ul {
     list-style: none;
     text-align: justify;
@@ -399,6 +405,8 @@ a {
 .embed--16by9 {
     padding-top: 56.25%;
 }
+
+
 
 @media only screen and (min-width: 20em) {
     .about {
