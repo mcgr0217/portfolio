@@ -125,6 +125,11 @@ img {
     max-width: 50%;
 }
 
+.bear {
+    width: 100%;
+    padding: 2rem 4rem;;
+}
+
 nav a {
     text-decoration: none;
     color: #004C72;
@@ -369,9 +374,9 @@ a {
     font-size: 18px;
     padding: 2px 40px;
     border-style: solid;
-    border-color: #004C72;
+    border-color: #11552B;
     border-width: 4px;
-    color: #004C72;
+    color: #11552B;
 }
 
 .content:target {
@@ -425,6 +430,9 @@ a {
     }
     .box1 {
         padding: 1rem;
+    }
+    .bear {
+        padding: 2rem 2rem;
     }
     .nav {
         max-width: 60%;
@@ -529,6 +537,9 @@ a {
     .nav {
         max-width: 60%;
     }
+    .bear {
+        padding: 2rem 10rem;
+    }
 }
 
 @media only screen and (min-width: 55em) { 
@@ -575,6 +586,9 @@ a {
     .soc {
         width: 15%;
     }
+    .bear {
+        padding: 2rem 15rem;
+    }
     .widthx {
         margin: -90px -100px;
         padding: 0;
@@ -588,6 +602,9 @@ a {
     }
     .about{
         padding: 3rem;
+    }
+    .bear {
+        padding: 2rem 20rem;;
     }
     .white {
         padding-left: 14rem;
