@@ -544,7 +544,7 @@ a {
 
 @media only screen and (min-width: 55em) { 
     .about{
-        padding: 3rem;
+        padding: 3rem 4rem;
     }
     .insta {
        width: 6%; 
@@ -601,7 +601,7 @@ a {
         padding-right: 8rem;
     }
     .about{
-        padding: 3rem;
+        padding: 3rem 5rem;
     }
     .bear {
         padding: 2rem 20rem;;
