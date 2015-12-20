@@ -5,14 +5,6 @@
    image-include: gatineau.html
    bg: gpp.png
    
--  title: Watt A Saver
-   classification: UX/UI
-   id: watt-a-saver
-   heading1: Watt-A-Saver
-   image-include: wattasaver.html
-   images-close: images/close.svg
-   bg: watt.png
-   
 -  title: TV Broadcasting 
    classification: Motion Graphics
    id: tv-broadcasting
