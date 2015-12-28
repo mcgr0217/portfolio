@@ -1,9 +1,24 @@
+-  title: Watt A Saver
+   classification: UX/UI
+   id: watt-a-saver
+   heading1: Watt-A-Saver
+   image-include: wattasaver.html
+   bg: blue.png
+   
 -  title: Gatineau Park
-   classification: UX/UI Mobile App Design
+   classification: UX/UI
    id: gatineau-park
    heading1: GP Trails
    image-include: gatineau.html
    bg: gpp.png
+   
+-  title: Alarm Buddy
+   classification: UX/UI
+   id: alarm-buddy
+   heading1: Alarm Buddy
+   image-include: alarm.html
+   images-close: images/close.svg
+   bg: orange.png
    
 -  title: TV Broadcasting 
    classification: Motion Graphics
@@ -17,14 +32,6 @@
    images-close: images/close.svg
    image-include: tv.html
    bg: tv.png
-   
--  title: Alarm Buddy
-   classification: Case Study
-   id: alarm-buddy
-   heading1: Alarm Buddy
-   image-include: alarm.html
-   images-close: images/close.svg
-   bg: orange.png
    
 -  title: Isometric Illustration
    classification: Home Theatre

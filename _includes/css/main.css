@@ -213,7 +213,7 @@ p {
 }
 
 .images {
-    padding-top: 1rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
 }
@@ -421,8 +421,6 @@ a {
     padding-top: 56.25%;
 }
 
-
-
 @media only screen and (min-width: 20em) {
     .about {
         padding: .75rem;
@@ -564,6 +562,9 @@ a {
     .text {
         padding-left: 8rem;
         padding-right: 8rem;
+    }
+    .images {
+       padding: 5rem; 
     }
     .white {
         padding-left: 10rem;

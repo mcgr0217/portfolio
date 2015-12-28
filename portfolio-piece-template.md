@@ -10,6 +10,11 @@ Image
 Name:
 description:
 
+UI/UX:
+Image
+Name:
+description:
+
 Web Design:
 Image
 Name:
