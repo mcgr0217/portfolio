@@ -483,6 +483,9 @@ a {
         padding: 0;
         z-index: -40;
     }
+    .images {
+        padding: 0rem 1rem;
+    }
 }
  
 @media only screen and (min-width: 40em) {
@@ -538,6 +541,9 @@ a {
     .bear {
         padding: 2rem 10rem;
     }
+    .images {
+       padding: 0rem 4rem; 
+    }
 }
 
 @media only screen and (min-width: 55em) { 
@@ -564,7 +570,7 @@ a {
         padding-right: 8rem;
     }
     .images {
-       padding: 5rem; 
+       padding: 0rem 8rem; 
     }
     .white {
         padding-left: 10rem;
@@ -603,6 +609,9 @@ a {
     }
     .about{
         padding: 3rem 5rem;
+    }
+    .images {
+       padding: 0rem 10rem; 
     }
     .bear {
         padding: 2rem 20rem;;
