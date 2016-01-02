@@ -180,8 +180,7 @@ p {
 
 .box2 {
     background-color: #D4EEFF;
-    padding: 2rem;
-    
+    padding: 2rem;  
 }
 
 .box3 {
@@ -256,6 +255,7 @@ video {
     margin: 0 0px;
     padding: 0;
     z-index: -40;
+    position: fixed;
 }
 
 .widthz {
@@ -267,6 +267,11 @@ video {
 ul {
     list-style: none;
     text-align: justify;
+}
+
+.photo {
+    width: 100%;
+    padding: 1rem;
 }
 
 .contact-icon {
@@ -347,8 +352,8 @@ ul {
 .select-box {
     display: block;
     background-color: #004C72;
-    opacity: 0.5;
-    padding: 4rem;
+    opacity: 0.4;
+    padding: 3rem;
     text-align: center;
     width: 100%;
     text-decoration: none;
@@ -549,6 +554,9 @@ a {
 @media only screen and (min-width: 55em) { 
     .about{
         padding: 3rem 4rem;
+    }
+    .close {
+        width: 2%;
     }
     .insta {
        width: 6%; 
