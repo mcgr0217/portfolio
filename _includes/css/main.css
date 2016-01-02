@@ -255,7 +255,6 @@ video {
     margin: 0 0px;
     padding: 0;
     z-index: -40;
-    position: fixed;
 }
 
 .widthz {
