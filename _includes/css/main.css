@@ -53,7 +53,7 @@ body {
 h2 {
     font-family: sans-serif;
     font-weight: 500;
-    color: #004C72;
+    color: #606060;
 }
 
 .space {
@@ -132,15 +132,25 @@ img {
 
 nav a {
     text-decoration: none;
-    color: #004C72;
+    color: #606060;
     font-weight: 500;
     text-align: center;
     font-family: sans-serif;
+}
+    
+.btn:hover,
+.btt:hover,
+.btn:active,
+.nav a:hover,
+.btn:focus {
+    color: #FFBB43;
+    padding: 1em;
 }
 
 .navtext {
     position: relative;
     text-align: center;
+    padding: 1em;
 }
 
 .services {
@@ -285,7 +295,7 @@ ul {
 
 .btt {
     text-decoration: none;
-    color: #000;
+    color: #606060;
     font-family: sans-serif;
     padding-bottom: 2rem;
     margin: 5rem;
