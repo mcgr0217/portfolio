@@ -23,7 +23,9 @@
     <meta name="twitter:image" content="{{site.baseurl}}"> 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="{{page.meta}}">
-    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="swipebox/swipebox.css">
 </head>
     
 <ul class="skip-links">
@@ -34,18 +36,21 @@
     
 <body>
     <section id="video">
-        <div class="grid widthx">
-            <div class="unit unit-xs-1 unit-1 unit-m-1 unit-l-1">
-                <div class="embed embed--16by9" aria-label="Video of Samantha McGregor">
-                    <video class="embed_item" src=" http://portfolio-230f.kxcdn.com/Goodone_2.mp4" loop autoplay id="motionv" height="330" poster="images/poster.png">
-                        <h1>Designer/ Adventurer</h1>
-                    </video>
+        <div id="video-wrap">
+            <div class="grid widthx">
+                <div class="unit unit-xs-1 unit-1 unit-m-1 unit-l-1">
+                    <div class="embed embed--16by9" aria-label="Video of Samantha McGregor">
+                        <video id="my-video" preload="metadata" class="embed_item" src=" http://portfolio-230f.kxcdn.com/Goodone_2.mp4" loop autoplay id="motionv" height="330" poster="images/poster.png">
+                            <h1>Designer/ Adventurer</h1>
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="nav">
+        
+        <div id="nav" class="nav">
             <header class="grid grid-middle">
-                    <nav class="nav unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                    <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
                         <ul class="grid">
                             <li class="btn navtext unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3"><a href="#about">ABOUT</a></li>
                             <li class="btn navtext unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3"><a href="#portfolio">PORTFOLIO</a></li>
@@ -85,6 +90,13 @@
         </div>
     </section>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-	<script src="js/main.js"></script>      
+	<script src="js/main.js"></script> 
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="backgroundVideo.js"></script>
+<script>
+    $(document).ready(function() {
+        $(element).backgroundVideo();
+    });
+</script>
 </body>    
 </html>
