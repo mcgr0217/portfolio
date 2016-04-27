@@ -53,7 +53,7 @@ body {
 h2 {
     font-family: 'opensans', sans-serif;
     font-weight: 500;
-    color: #00ABB6;
+    color: #F05051;
 }
 
 .space {
@@ -63,7 +63,7 @@ h2 {
 h5 {
     font-family: sans-serif;
     font-weight: 500;
-    color: #00ABB6;
+    color: #F05051;
 }
 
 .icons {
@@ -142,7 +142,7 @@ nav a {
 .btn:active,
 .nav a:hover,
 .btn:focus {
-    color: #00ABB6;
+    color: #F05051;
     padding: 1em;
 }
 
@@ -350,7 +350,7 @@ ul {
 
 .email {
     font-family: sans-serif;
-    color: #00ABB6;
+    color: #F05051;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
