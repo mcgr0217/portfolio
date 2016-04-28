@@ -368,8 +368,11 @@ ul {
     padding-bottom: 1rem;
 }
 
-.social-icon:hover {
-    opacity: 1;
+.social-icon:hover,
+.social-icon:active,
+.social-icon:focus {
+    color: #F05051;
+    padding: 1em;
 }
 
 .contact-icon {
