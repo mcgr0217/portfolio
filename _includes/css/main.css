@@ -652,7 +652,7 @@ a {
         padding-right: 8rem;
     }
     .about{
-        padding: 2.5rem;
+        padding: 2rem;
     }
     .images {
        padding: 0rem 10rem; 
@@ -665,7 +665,7 @@ a {
         padding-right: 14rem;
     }
     .widthx {
-        margin: 0 -40px;
+        margin: 0 -30px;
         padding: 0;
         z-index: -40;
     }
