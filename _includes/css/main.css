@@ -358,7 +358,6 @@ ul {
 }
 
 .social-link {
-    color: #fff;
     max-width: 5%
     text-decoration: none;
 }
@@ -369,10 +368,8 @@ ul {
 }
 
 .social-icon:hover,
-.social-icon:active,
 .social-icon:focus {
     color: #F05051;
-    padding: 1em;
 }
 
 .contact-icon {
