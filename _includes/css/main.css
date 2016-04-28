@@ -368,6 +368,10 @@ ul {
     padding-bottom: 1rem;
 }
 
+.social-icon:hover {
+    opacity: 1;
+}
+
 .contact-icon {
     max-width: 30%;
     transform: translateX(120%);
