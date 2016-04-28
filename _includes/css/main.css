@@ -367,8 +367,7 @@ ul {
     padding-bottom: 1rem;
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-icon:hover {
     color: #F05051;
 }
 
