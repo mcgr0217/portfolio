@@ -578,7 +578,7 @@ a {
         margin: 0 -40px;
         padding: 0;
         z-index: -40;
-    
+    }
     .bear {
         padding: 2rem 10rem;
     }
@@ -589,7 +589,7 @@ a {
 
 @media only screen and (min-width: 55em) { 
     .about{
-        padding: 3rem 4rem;
+        padding: 2rem 2rem;
     }
     .close {
         width: 2%;
@@ -652,7 +652,7 @@ a {
         padding-right: 8rem;
     }
     .about{
-        padding: 3rem 5rem;
+        padding: 3rem 3rem;
     }
     .images {
        padding: 0rem 10rem; 
